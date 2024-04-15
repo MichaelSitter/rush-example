@@ -223,19 +223,9 @@
      * your PR branch, and in this situation "rush change" will also automatically invoke "git fetch"
      * to retrieve the latest activity for the remote main branch.
      */
-    // "url": "https://github.com/microsoft/rush-example",
-
-    /**
-     * The default branch name. This tells "rush change" which remote branch to compare against.
-     * The default value is "main"
-     */
-    // "defaultBranch": "main",
-
-    /**
-     * The default remote. This tells "rush change" which remote to compare against if the remote URL is
-     * not set or if a remote matching the provided remote URL is not found.
-     */
-    // "defaultRemote": "origin"
+    "url": "https://github.com/MichaelSitter/rush-example",
+    "defaultBranch": "main",
+    "defaultRemote": "origin"
   },
 
   /**
@@ -283,7 +273,7 @@
    * that read these JSON files and do something with them.  These scripts are typically registered
    * in the "eventHooks" section.
    */
-  // "telemetryEnabled": false,
+  "telemetryEnabled": true,
 
   /**
    * Allows creation of hotfix changes. This feature is experimental so it is disabled by default.
@@ -407,6 +397,13 @@
       "projectFolder": "tools/my-toolchain",
       "reviewCategory": "tools",
       "tags": [ "tools" ]
+    },
+
+    {
+      "packageName": "rush-flush-telemetry-example-plugin",
+      "projectFolder": "libraries/rush-flush-telemetry-example-plugin",
+      "reviewCategory": "tools",
+      "shouldPublish": true
     }
   ]
 }

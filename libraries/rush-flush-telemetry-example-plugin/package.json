@@ -1,0 +1,17 @@
+{
+  "name": "rush-flush-telemetry-example-plugin",
+  "version": "1.0.0",
+  "description": "Example Rush plugin showing the telemetry hook",
+  "license": "MIT",
+  "main": "lib/index.js",
+  "typings": "lib/index.d.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "dependencies": {
+    "@rushstack/rush-sdk": "5.119.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}

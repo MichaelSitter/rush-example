@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-flush-telemetry-example-plugin",
+      "comment": "Setup plugin",
+      "type": "patch"
+    }
+  ],
+  "packageName": "rush-flush-telemetry-example-plugin"
+}

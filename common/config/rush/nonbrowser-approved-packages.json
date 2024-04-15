@@ -12,7 +12,7 @@
     },
     {
       "name": "my-toolchain",
-      "allowedCategories": [ "production" ]
+      "allowedCategories": [ "production", "tools" ]
     },
     {
       "name": "rimraf",
