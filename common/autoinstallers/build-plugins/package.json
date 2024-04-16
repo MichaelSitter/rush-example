@@ -2,5 +2,7 @@
   "name": "build-plugins",
   "version": "1.0.0",
   "private": true,
-  "dependencies": {}
+  "dependencies": {
+    "rush-flush-telemetry-example-plugin": "1.0.1"
+  }
 }
