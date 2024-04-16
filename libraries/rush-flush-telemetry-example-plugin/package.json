@@ -1,6 +1,6 @@
 {
   "name": "rush-flush-telemetry-example-plugin",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Example Rush plugin showing the telemetry hook",
   "license": "MIT",
   "main": "lib/index.js",

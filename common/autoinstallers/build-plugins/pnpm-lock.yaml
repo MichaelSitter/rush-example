@@ -1,10 +1,10 @@
 lockfileVersion: 5.4
 
 specifiers:
-  rush-flush-telemetry-example-plugin: 1.0.1
+  rush-flush-telemetry-example-plugin: 1.1.0
 
 dependencies:
-  rush-flush-telemetry-example-plugin: 1.0.1
+  rush-flush-telemetry-example-plugin: 1.1.0
 
 packages:
 
@@ -182,8 +182,8 @@ packages:
       supports-preserve-symlinks-flag: 1.0.0
     dev: false
 
-  /rush-flush-telemetry-example-plugin/1.0.1:
-    resolution: {integrity: sha512-TI1kN8uH6n3Ze7/SB7jbw/kBYOElZU/QfhvcBrmH9L4IKfuEtVemgEaw27vMKEmft9QCWNejoAivAEsCrF1Q4Q==}
+  /rush-flush-telemetry-example-plugin/1.1.0:
+    resolution: {integrity: sha512-67qEVZKSbe9KOC/fvfRKmkMrUHC149VtAorlbklCyu29qP0yi65YH/Wx+rzYdD6Vi9QqY6CLWugKN03KCgCXKQ==}
     dependencies:
       '@rushstack/rush-sdk': 5.119.0
     transitivePeerDependencies:

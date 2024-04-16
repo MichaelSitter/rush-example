@@ -1,0 +1,22 @@
+{
+  "name": "rush-flush-telemetry-example-plugin",
+  "entries": [
+    {
+      "version": "1.1.0",
+      "tag": "rush-flush-telemetry-example-plugin_v1.1.0",
+      "date": "Tue, 16 Apr 2024 00:45:01 GMT",
+      "comments": {
+        "patch": [
+          {
+            "comment": "Setup plugin"
+          }
+        ],
+        "minor": [
+          {
+            "comment": "Add plugin manifest"
+          }
+        ]
+      }
+    }
+  ]
+}

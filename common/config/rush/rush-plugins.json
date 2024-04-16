@@ -1,10 +1,10 @@
 {
   "$schema": "https://developer.microsoft.com/json-schemas/rush/v5/rush-plugins.schema.json",
   "plugins": [
-    // {
-    //   "packageName": "rush-flush-telemetry-example-plugin",
-    //   "pluginName": "rush-flush-telemetry-example-plugin",
-    //   "autoinstallerName": "build-plugins"
-    // }
+    {
+      "packageName": "rush-flush-telemetry-example-plugin",
+      "pluginName": "rush-flush-telemetry-example-plugin",
+      "autoinstallerName": "build-plugins"
+    }
   ]
 }

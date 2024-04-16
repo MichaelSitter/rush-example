@@ -3,6 +3,6 @@
   "version": "1.0.0",
   "private": true,
   "dependencies": {
-    "rush-flush-telemetry-example-plugin": "1.0.1"
+    "rush-flush-telemetry-example-plugin": "1.1.0"
   }
 }
