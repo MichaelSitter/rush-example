@@ -11,11 +11,10 @@ export class RushFlushTelemetryExamplePlugin implements IRushPlugin {
   apply(rushSession: RushSession, rushConfiguration: RushConfiguration): void {
     rushSession.hooks.flushTelemetry.tapAsync(this.pluginName, async (telemetry, callback) => {
       try {
-        writeCustomTelemetry('custom-success', {})
+        writeCustomTelemetry('custom-success', telemetry)
       } catch (e) {
-        writeCustomTelemetry('custom-failure', {})
-      } finally {
-        writeCustomTelemetry('custom-finally', {})
+        writeCustomTelemetry('custom-failure', telemetry)
+        callback(e as any)
       }
     })
   }

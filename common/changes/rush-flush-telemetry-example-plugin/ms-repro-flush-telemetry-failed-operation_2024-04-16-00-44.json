@@ -1,0 +1,10 @@
+{
+  "changes": [
+    {
+      "packageName": "rush-flush-telemetry-example-plugin",
+      "comment": "Add plugin manifest",
+      "type": "minor"
+    }
+  ],
+  "packageName": "rush-flush-telemetry-example-plugin"
+}
